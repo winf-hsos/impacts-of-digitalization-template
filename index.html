@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Web App Template | </title>
+    <title>Web App Template | Impacts of Digitalization</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,57 +14,44 @@
     <!-- Include the common stylesheet -->
     <link rel="stylesheet" href="common.css" />
 
-
-
     <!-- import the bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
 <body>
-
     <div class="container">
         <div class="row mt-4">
             <div class="col-10 mx-auto">
-                <a class="mt-2 mb-4" style="display:block;" href="/index.html">
-                    << Back</a>
-                        <h1 class="mb-4">Web App Template</h1>
-                        <h2 class="mb-4"></h2>
 
-                        <!-- This is a paragraph -->
-                        <p>
-                            This is the console. All output created with
-                            <code>writeLog()</code> is shown here.
-                        </p>
+                <h1 class="mb-4">Web App Template</h1>
+                <h2 class="mb-4"></h2>
 
-                        <!-- This a text area where we can type or output text -->
-                        <textarea class="form-control" id="console" rows="14"></textarea>
+                <!-- This is a paragraph -->
+                <p>
+                    This is the console. All output created with
+                    <code>writeLog()</code> is shown here.
+                </p>
 
-                        <!-- This is a button that we can use to trigger something -->
-                        <button class="btn btn-secondary mt-2 mb-4" onclick="clearLog()">
-                            Clear
-                        </button>
+                <!-- This a text area where we can type or output text -->
+                <textarea class="form-control" id="console" rows="14"></textarea>
 
-                        <p>The button below prints the content of the input field to the console above. The input field
-                            has the
-                            <code>id = "myInput"</code>, so that we can access the value from JavaScript using
-                            <code>getInput("myInput")</code>
-                        </p>
+                <!-- This is a button that we can use to trigger something -->
+                <button class="btn btn-secondary mt-2 mb-4" onclick="clearLog()">
+                    Clear
+                </button>
 
-                        <!-- This is a single line input field to enter text -->
-                        <input type="text" class="form-control mb-4" id="myInput" />
+                <p>The button below prints the content of the input field to the console above. The input field
+                    has the
+                    <code>id = "myInput"</code>, so that we can access the value from JavaScript using
+                    <code>getInput("myInput")</code>
+                </p>
 
-                        <!-- This button triggers a function that prints the text to the console -->
-                        <button class="btn btn-secondary mt-2" onclick="printText()">Print Text to Console</button>
+                <!-- This is a single line input field to enter text -->
+                <input type="text" class="form-control mb-4" id="myInput" />
 
-
-                        <hr>
-                        <h2>script.js</h2>
-                        <p>This is the JavaScript code behind the above application.</p>
-                        <script
-                            src="https://emgithub.com/embed.js?target=https://github.com/winf-hsos/impacts-of-digitalization/blob/master/template/script.js&style=grayscale&showBorder=on&showLineNumbers=on"></script>
-
-
+                <!-- This button triggers a function that prints the text to the console -->
+                <button class="btn btn-secondary mt-2" onclick="printText()">Print Text to Console</button>
 
             </div>
         </div>
@@ -77,7 +64,7 @@
     <script src="https://cdn.jsdelivr.net/gh/winf-hsos/tinkerforge-device-manager-web/lib/Tinkerforge.min.js"></script>
 
     <!-- Import the Tinkerforge Device Manager -->
-    <script src="https://cdn.jsdelivr.net/gh/winf-hsos/tinkerforge-device-manager-web@0.2.7/index.min.js"
+    <script src="https://cdn.jsdelivr.net/gh/winf-hsos/tinkerforge-device-manager-web/index.min.js"
         type="module"></script>
 
     <!-- Import the HSOS Web Helper -->
